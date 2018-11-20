@@ -6,7 +6,7 @@ Generate points based on functions by Processing
 ## General 基本说明
 Processing setting origin point at top left by default  
 In this project I changed it to the bottom left by flip Y axis  
-(you can see this in code)  
+you can see this in code  
 
 Processing默认将原点设置在左上角  
 这个项目里我把Y轴翻转了，于是原点变为左下  
@@ -44,7 +44,9 @@ When 'slope' set to '1', it means diagonal line
 ![Two Functions With Slope](https://github.com/WuWaA/Processing-Points-Generation/raw/master/function%20both%20slope%202.png)  
 
 Functions could be combined, and amount of points could be controlled easily  
-I use 'probability' to control weight of each function, it can be changed by multiply a number such as 0.5 (and will casue half weight of that function)  
+I use 'probability' to control weight of each function  
+It can be changed by multiply a number such as 0.5  
+And will casue half weight of that function  
 After change weight, the 'threshold' should be changed  
 You can find detailed comment in the project file  
 Hopes that can help  
