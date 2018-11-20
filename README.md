@@ -13,7 +13,7 @@ Processing默认将原点设置在左上角
 详见代码  
 
 ## The First Function 第一个函数
-[First Function](https://github.com/WuWaA/Processing-Points-Generation/raw/master/function%201.png)  
+![First Function](https://github.com/WuWaA/Processing-Points-Generation/raw/master/function%201.png)  
 
 The first function based on distance to the original point  
 More close to the origin, random points more likely to be generated  
@@ -22,7 +22,7 @@ More close to the origin, random points more likely to be generated
 距离原点越近，随机点越有可能被生成并显示出来  
 
 ## The Second Function 第二个函数
-[Second Function](https://github.com/WuWaA/Processing-Points-Generation/raw/master/function%202.png)  
+![Second Function](https://github.com/WuWaA/Processing-Points-Generation/raw/master/function%202.png)  
 
 The first function based on distance to the diagonal line  
 More close to the diagonal, random points more likely to be generated  
@@ -30,7 +30,7 @@ More close to the diagonal, random points more likely to be generated
 第二个函数基于到对角线的距离  
 距离对角线越近，随机点越有可能被生成并显示出来  
 
-[Second Function With Slope](https://github.com/WuWaA/Processing-Points-Generation/raw/master/function%202%20slope.png)  
+![Second Function With Slope](https://github.com/WuWaA/Processing-Points-Generation/raw/master/function%202%20slope.png)  
 
 The second function has a slope which could be modify  
 When 'slope' set to '1', it means diagonal line  
@@ -39,9 +39,9 @@ When 'slope' set to '1', it means diagonal line
 将'slope'设置为'1'的时候表示对角线  
 
 ## Combine two functions 组合两个函数
-[Two Functions](https://github.com/WuWaA/Processing-Points-Generation/raw/master/function%20both.png)  
-[Two Functions With Slope](https://github.com/WuWaA/Processing-Points-Generation/raw/master/function%20both%20slope.png)  
-[Two Functions With Slope](https://github.com/WuWaA/Processing-Points-Generation/raw/master/function%20both%20slope%202.png)  
+![Two Functions](https://github.com/WuWaA/Processing-Points-Generation/raw/master/function%20both.png)  
+![Two Functions With Slope](https://github.com/WuWaA/Processing-Points-Generation/raw/master/function%20both%20slope.png)  
+![Two Functions With Slope](https://github.com/WuWaA/Processing-Points-Generation/raw/master/function%20both%20slope%202.png)  
 
 Functions could be combined, and amount of points could be controlled easily  
 I use 'probability' to control weight of each function, it can be changed by multiply a number such as 0.5 (and will casue half weight of that function)  
